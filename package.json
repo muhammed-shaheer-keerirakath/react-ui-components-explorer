@@ -9,8 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@deriv-com/ui": "^1.14.1",
-    "@shaheershukur/react-ui-components": "^1.12.0",
+    "@shaheershukur/react-ui-components": "^1.16.0",
     "next": "14.2.1",
     "react": "^18",
     "react-dom": "^18"

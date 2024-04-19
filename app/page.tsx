@@ -1,8 +1,8 @@
-import { Button, Card, Text } from "@shaheershukur/react-ui-components";
+import { Button, Card } from "@shaheershukur/react-ui-components";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-4 p-8">
+    <div>
       <Card skin="outlined" roundness="large">
         <Button skin="primary" size="large">
           Button

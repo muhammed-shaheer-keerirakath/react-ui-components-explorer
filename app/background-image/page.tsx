@@ -4,6 +4,7 @@ import Image from "next/image";
 
 export default function BackgroundImage() {
   const imageNumber = Math.floor(Math.random() * 6 + 1);
+  console.log(">>>", imageNumber);
 
   return (
     <Image
@@ -11,7 +12,7 @@ export default function BackgroundImage() {
       fill
       placeholder="blur"
       blurDataURL="/bg_1.jpg"
-      alt="Background Image"
+      alt={`Background Image ${imageNumber}`}
       style={{ objectFit: "cover" }}
       priority
     />

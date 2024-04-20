@@ -19,9 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} fixed`}>
+      <body className={`${inter.className} bg-white dark:bg-gray-950`}>
         <BackgroundImage />
-        <div className="relative flex h-screen w-screen flex-col">
+        <div className="absolute z-10 flex h-screen w-screen flex-col">
           <div className="w-full border-2 border-black">side </div>
           <div className="w-full border-2 border-violet-800">{children}</div>
         </div>
